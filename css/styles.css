@@ -10,12 +10,14 @@
   width:50%;
   float:left;
   text-align:center;
-  border:20px solid black;
+  border:15px solid black;
+  background-color: grey;
 }
 
 .column2{
   width:50%;
   float:left;
   text-align:center;
-  border:20px solid red;
+  border:15px solid red;
+  background-color: teal;
 }

@@ -10,7 +10,12 @@ $(document).ready(function() {
     phoneNumber=$("input#value3").val();
     email=$("input#value4").val();
 
-    $(".contactDisplay").append(name);
+    $("#nameList").after("")
+
+
+
+
+
     $(".contactDisplay").append(address);
     $(".contactDisplay").append(phoneNumber);
     $(".contactDisplay").append(email);
