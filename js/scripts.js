@@ -17,7 +17,9 @@ $(document).ready(function() {
   $("button#addToContact").click(function(){
     getValues();
     addressBook.push(name);
-    $(".contactDisplay").append(addressBook[idNumber]);
+  //$(".contactDisplay").append(addressBook[idNumber]);
+
+    $(".contactDisplay").append("<li"+ " id=listItem"+idNumber+">"+addressBook[idNumber]+"</li>");
     idNumber++;
   });
 
