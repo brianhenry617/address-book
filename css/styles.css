@@ -1,7 +1,21 @@
 .contact-panel{
-  
+
 }
 
 .input-panel{
 
+}
+
+.column1{
+  width:50%;
+  float:left;
+  text-align:center;
+  border:20px solid black;
+}
+
+.column2{
+  width:50%;
+  float:left;
+  text-align:center;
+  border:20px solid red;
 }

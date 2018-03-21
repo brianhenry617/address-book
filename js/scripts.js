@@ -1,25 +1,22 @@
-var value1;
-var value2;
+var name;
+var address;
+var phoneNumber;
+var email;
 
 $(document).ready(function() {
-  getValues = function() {
-    value1 = parseInt($("input#value1").val());
-    value2 = parseInt($("input#value2").val());
-  }
-  $("button").click(function() {
-    getValues();
-  })
+  $("#input-form").submit(function() {
+    name=$("input#value1").val();
+    address=$("input#value2").val();
+    phoneNumber=$("input#value3").val();
+    email=$("input#value4").val();
 
-  $("button#add").click(function(){
-    alert(value1+value2);
+    console.log(name);
+
+
+
   });
-  $("button#subtract").click(function(){
-    alert(value1-value2);
-  });
-  $("button#multiply").click(function(){
-    alert(value1*value2);
-  });
-  $("button#divide").click(function(){
-    alert(value1/value2);
-  });
+
+
+
+
 });
