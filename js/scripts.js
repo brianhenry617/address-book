@@ -10,13 +10,13 @@ $(document).ready(function() {
     phoneNumber=$("input#value3").val();
     email=$("input#value4").val();
 
-    console.log(name);
+    $(".contactDisplay").append(name);
+    $(".contactDisplay").append(address);
+    $(".contactDisplay").append(phoneNumber);
+    $(".contactDisplay").append(email);
 
 
-
+    event.preventDefault();
   });
-
-
-
 
 });
